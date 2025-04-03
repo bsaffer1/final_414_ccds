@@ -12,8 +12,8 @@ app = typer.Typer()
 @app.command()
 def main(
     # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----
-    input_path: Path = /Users/brynnsaffer/Documents/414_final_project/ "GSS_414_Raw.csv",
-    output_path: Path = /Users/brynnsaffer/Documents/414_final_project/ "Cleaned_Data.csv",
+    input_path: Path("/Users/brynnsaffer/Documents/414_final_project/GSS_414_Raw.csv"),
+    output_path: Path("/Users/brynnsaffer/Documents/414_final_project/Cleaned_Data.csv"),
     # ----------------------------------------------
 ):
     # ---- REPLACE THIS WITH YOUR OWN CODE ----
